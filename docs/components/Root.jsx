@@ -2,6 +2,7 @@
 import React from 'react';
 import Head from './Head.jsx';
 import Grid from './Grid.jsx';
+import FlexSection from './FlexSection.jsx';
 
 import { Container } from '../..';
 
@@ -16,6 +17,7 @@ class Root extends React.Component {
             <h1>{this.props.title}</h1>
             <p>{this.props.description} – v{this.props.version}</p>
             <Grid />
+            <FlexSection />
           </Container>
         </body>
       </html>

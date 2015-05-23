@@ -1,13 +1,14 @@
 
 import React from 'react';
 
-import { Container, Row, Col } from '../..';
+import { Section, Row, Col } from '../..';
 
 class Grid extends React.Component {
 
   render() {
     return (
-      <section id="grid" className="outline">
+      <Section id="grid" className="outline">
+        <h2>Grid</h2>
         <Row>
           <Col w={6}>Col 6</Col>
           <Col w={6}>Col 6</Col>
@@ -19,7 +20,7 @@ class Grid extends React.Component {
           <Col w={3}>Col 3</Col>
           <Col w={3}>Col 3</Col>
         </Row>
-      </section>
+      </Section>
     )
   }
 

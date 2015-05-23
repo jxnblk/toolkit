@@ -5,13 +5,14 @@ import defaults from './defaults.jsx';
 class Col extends React.Component {
 
   render() {
+
     var style = {
       boxSizing: 'border-box',
       float: 'left',
       paddingLeft: defaults.s2,
       paddingRight: defaults.s2,
       width: (this.props.w/12*100) + '%',
-    }
+    };
 
     return (
       <div style={style}>
@@ -22,10 +23,7 @@ class Col extends React.Component {
 }
 
 Col.propTypes = {
-  w: React.PropTypes.number,
-  sm: React.PropTypes.number,
-  md: React.PropTypes.number,
-  lg: React.PropTypes.number,
+  w: React.PropTypes.number
 };
 
 Col.defaultProps = {
