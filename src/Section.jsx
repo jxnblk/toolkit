@@ -6,8 +6,8 @@ class Section extends React.Component {
 
   render() {
     var style = {
-      paddingTop: defaults.s4,
-      paddingBottom: defaults.s4,
+      paddingTop: defaults.s3,
+      paddingBottom: defaults.s3,
     }
 
     return (

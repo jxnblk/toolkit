@@ -8,7 +8,7 @@ class Container extends React.Component {
     var style = {
       paddingLeft: defaults.s2,
       paddingRight: defaults.s2,
-      maxWidth: this.props.fluid ? null : 960,
+      maxWidth: this.props.fluid ? null : defaults.maxWidth,
       margin: '0 auto',
     }
 

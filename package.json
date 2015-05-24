@@ -14,6 +14,7 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "dependencies": {
+    "colors.css": "^2.3.0",
     "react-style": "^0.5.5"
   },
   "devDependencies": {
