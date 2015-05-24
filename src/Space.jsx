@@ -12,20 +12,9 @@ class Space extends React.Component {
       defaults.s3,
       defaults.s4,
     ];
-    var m = this.props.m,
-        mt = this.props.mt,
-        mr = this.props.mr,
-        mb = this.props.mb,
-        ml = this.props.ml,
-        mx = this.props.mx,
-        my = this.props.my,
-        p = this.props.p,
-        pt = this.props.pt,
-        pr = this.props.pr,
-        pb = this.props.pb,
-        pl = this.props.pl,
-        px = this.props.px,
-        py = this.props.py;
+    var { m, mt, mr, mb, ml, mx, my,
+          p, pt, pr, pb, pl, px, py,
+      } = this.props;
     var style = {
       margin: m ? scale[m] : null,
       marginTop: mt ? scale[mt] : null,
